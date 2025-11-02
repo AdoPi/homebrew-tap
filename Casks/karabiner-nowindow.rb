@@ -27,7 +27,7 @@ cask "karabiner-nowindow" do
   end
   on_ventura :or_newer do
     version "15.5.90"
-    sha256 "8eae36c58a013b7ca54e70b44f23e1bce52341e13ab2fa48f95d022446965cc0"
+    sha256 "8b42e199c183549df33bd5d5db5e52d168650a98f60218876a765583780406f1"
 
     pkg "Karabiner-Elements.pkg"
 
