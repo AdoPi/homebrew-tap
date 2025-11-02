@@ -1,4 +1,4 @@
-cask "nowindow-karabiner-elements" do
+cask "karabiner-nowindow" do
   on_monterey :or_older do
     on_catalina :or_older do
       version "13.7.0"
