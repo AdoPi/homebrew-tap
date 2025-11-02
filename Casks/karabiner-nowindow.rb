@@ -60,7 +60,7 @@ cask "nowindow-karabiner-elements" do
     # The system extension 'org.pqrs.Karabiner-DriverKit-VirtualHIDDevice*' should not be uninstalled by Cask
   end
 
-  url "https://github.com/AdoPi/Karabiner-Elements/releases/download/v15.5.90-no-window/nowindow-Karabiner-Elements-15.5.90.dmg"
+  url "https://github.com/AdoPi/Karabiner-Elements/releases/download/v15.5.90-no-window/nowindow-Karabiner-Elements-#{version}.dmg",
       verified: "github.com/AdoPi/Karabiner-Elements/"
   name "Karabiner Elements (nowindow)"
   desc "Keyboard customiser"
