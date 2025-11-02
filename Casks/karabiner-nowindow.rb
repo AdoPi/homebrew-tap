@@ -29,7 +29,7 @@ cask "karabiner-nowindow" do
     version "15.5.90"
     sha256 "405e68ab16aa6079dbb28f573f32f8f611043b5db3ba2bb4a9995a6ecc1d2062"
 
-    pkg "nowindow-Karabiner-Elements.pkg"
+    pkg "Karabiner-Elements.pkg"
 
     uninstall early_script: {
                 executable: "/Library/Application Support/org.pqrs/Karabiner-DriverKit-VirtualHIDDevice/scripts/uninstall/remove_files.sh",
